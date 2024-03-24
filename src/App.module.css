@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newTaskInput {
+  display: flex;
+  gap: 0.5rem;
+  width: 46rem;
+  margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.newTaskInput>input {
+  height: 3.5rem;
+  width: 38.975rem;
+  padding: 1rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  background-color: var(--gray-500);
+}
+
+.newTaskInput>button {
+  height: 3.5rem;
+  width: 5.625rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  gap: 0.5rem;
+  color: var(--gray-100);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.newTaskInput>button strong {
+  font-size: 0.875rem;
+  line-height: 1.225rem;
+}
