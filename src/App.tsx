@@ -4,6 +4,7 @@ import { NewTaskInput } from './components/NewTaskInput'
 import './global.css'
 
 import styles from "./App.module.css"
+import { TaskList } from './components/TaskList'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <Header />
 
       <NewTaskInput />
+
+      <TaskList />
       
     </div>
   )
