@@ -5,7 +5,7 @@
   margin-top: calc(0px - 1.5rem - 6px);
 }
 
-.newTaskInput>input {
+.newTaskInput > input {
   height: 3.5rem;
   width: 38.975rem;
   padding: 1rem;
@@ -15,7 +15,7 @@
   color: var(--gray-100);
 }
 
-.newTaskInput>button {
+.newTaskInput > button {
   height: 3.5rem;
   width: 5.625rem;
   padding: 1rem;
@@ -29,7 +29,7 @@
   align-items: center;
 }
 
-.newTaskInput>button strong {
+.newTaskInput > button strong {
   font-size: 0.875rem;
   line-height: 1.225rem;
 }

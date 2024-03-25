@@ -1,13 +1,12 @@
-import { Header } from './components/Header'
-import { NewTaskInput } from './components/NewTaskInput'
+import { Header } from "./components/Header"
+import { NewTaskInput } from "./components/NewTaskInput"
 
-import './global.css'
+import "./global.css"
 
 import styles from "./App.module.css"
-import { TaskList } from './components/TaskList'
+import { TaskList } from "./components/TaskList"
 
 function App() {
-
   return (
     <div className={styles.wrapper}>
       <Header />
@@ -15,7 +14,6 @@ function App() {
       <NewTaskInput />
 
       <TaskList />
-      
     </div>
   )
 }
