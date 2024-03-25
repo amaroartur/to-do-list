@@ -1,6 +1,7 @@
 import { Header } from './components/Header'
+import { NewTaskInput } from './components/NewTaskInput'
+
 import './global.css'
-import { PlusCircle } from '@phosphor-icons/react'
 
 import styles from "./App.module.css"
 
@@ -10,17 +11,8 @@ function App() {
     <div className={styles.wrapper}>
       <Header />
 
-      <div className={styles.newTaskInput}>
-        <input 
-          type="text" 
-          placeholder='Adicione uma nova tarefa'
-        />
-
-        <button>
-          <strong>Criar</strong>
-          <PlusCircle size={20}/>
-        </button>
-      </div>
+      <NewTaskInput />
+      
     </div>
   )
 }
