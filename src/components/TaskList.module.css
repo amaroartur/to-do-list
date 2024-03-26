@@ -15,6 +15,7 @@
 .container header strong {
   color: var(--purple);
   font-weight: bold;
+  font-size: 0.875rem;
 }
 
 .container header strong:first-child {
@@ -24,7 +25,33 @@
 
 .container header strong span {
   color: var(--gray-200);
-  border-radius: 50%;
+  border-radius: 999px;
   padding: 0.125rem 0.5rem;
   background-color: var(--gray-400);
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+}
+
+.listContainer {
+  height: 15.25rem;
+  width: 46rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 4rem 2rem;
+  color: var(--gray-300);
+  line-height: 0.625rem;
+}
+
+.listContainer img {
+  margin-bottom: 1rem;
+}
+
+.listContainer strong {
+  font-weight: bold;
 }
